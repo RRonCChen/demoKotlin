@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS todo;
+
+CREATE TABLE todo (
+    id INT AUTO_INCREMENT  PRIMARY KEY,
+    description VARCHAR(50) NOT NULL,
+    completed TINYINT NOT NULL
+);
